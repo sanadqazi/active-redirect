@@ -1,4 +1,9 @@
 <?php
+
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
+}
+
 // Redirect if old URL exists
 add_action('template_redirect', 'prefix_check_redirect');
 

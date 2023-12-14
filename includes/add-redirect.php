@@ -1,4 +1,9 @@
 <?php
+
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
+}
+
 if (isset($_POST['submit'])) {
     // Handle form submission for adding redirect
     $old_url = esc_url_raw($_POST['old_url']);

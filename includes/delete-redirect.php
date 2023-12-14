@@ -1,4 +1,9 @@
 <?php
+
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
+}
+
 // Delete the redirect URL from the database
 function delete_redirection($redirect_id)
 {

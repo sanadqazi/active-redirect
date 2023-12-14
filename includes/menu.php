@@ -1,4 +1,9 @@
 <?php
+
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
+}
+
 // Add backend menu
 add_action('admin_menu', 'prefix_active_redirect_menu');
 

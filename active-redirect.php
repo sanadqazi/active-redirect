@@ -8,6 +8,10 @@
  * Author URI: https://sanadqazi.com
  */
 
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
+}
+
 // Include required files
 require_once plugin_dir_path(__FILE__) . 'includes/install.php';
 require_once plugin_dir_path(__FILE__) . 'includes/redirect.php';

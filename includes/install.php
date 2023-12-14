@@ -1,4 +1,9 @@
 <?php
+
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
+}
+
 // Create table on plugin activation
 function prefix_create_active_redirection_table()
 {
